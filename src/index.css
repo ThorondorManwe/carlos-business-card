@@ -1,0 +1,174 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  font-family: 'Inter', sans-serif;
+}
+
+#root {
+  width: 558px;
+  height: 861px;
+  background: #23252C;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+/* Estilos de divs que generan los components */
+.infoDiv,
+.aboutDiv,
+.interestsDiv,
+footer {
+  width: 317px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  background-color: #1A1B21;
+}
+
+/* Estilos de Info */
+.perfilPhoto {
+  width: 317px;
+  border-radius: 10px 10px 0 0;
+}
+
+.infoDiv h1 {
+  color: #FFFFFF;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 15px 0 0 0;
+}
+
+#frontend {
+  color: #F3BF99;
+  font-size: 12.8px;
+  margin: 0;
+}
+
+#site {
+  font-size: 10.24px;
+  margin-bottom: 15px;
+}
+
+#site a {
+  text-decoration: none;
+  color: #F5F5F5;
+}
+
+
+.buttons {
+  width: 247px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  width: 115px;
+  height: 34px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.email {
+  background: #FFFFFF;
+  border: 1px solid #D1D5DB;
+}
+
+.email a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.linkedin {
+  color: #FFFFFF;
+  background: #5093E2;
+  border: 1px solid #5093E2;
+}
+
+/* Estilos de About */
+.aboutDiv,
+.interestsDiv {
+  margin-top: -19px;
+  padding-top: 20px;
+  padding-left: 2em;
+  padding-right: 2em;
+  color: #F5F5F5;
+}
+
+.aboutText,
+.interestsText {
+  width: 247px;
+}
+
+.aboutText h3,
+.interestsText h3 {
+  text-align: left;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  margin-bottom: -10px;
+}
+
+.aboutText p,
+.interestsText p {
+  text-align: left;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  color: #DCDCDC;
+}
+
+/* Estilos de Interests */
+.interestsDiv {
+  margin-top: -10px;
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+
+/* Estilos del Footer */
+footer {
+  margin-top: -15px;
+  height: 64px;
+  display: flex;
+  font-size: 25px;
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+  color: #918E9B;
+}
+
+.socialIcons {
+  width: 174px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.social-list__item {
+  margin: 0.3em;
+}
+
+.social-list__link {
+  padding: 0;
+}
+
+.fab {
+  color: #918E9B;
+  width: 25.36px;
+  height: 24.8px;
+}
